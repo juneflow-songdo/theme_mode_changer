@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ThemeConfig {
-  static var startThemeMode = ThemeMode.dark;
+  static var startThemeMode = ThemeMode.system;
 
   static var lightTheme = ThemeData(
     useMaterial3: true,
