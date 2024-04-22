@@ -16,7 +16,7 @@ dependencies:
   june_flow_util: ^0.8.19
 
 dev_dependencies:
-  config_theme: ^0.0.1+1 #@add
+  config_theme: ^0.0.2 #@add
   flutter_test:
     sdk: flutter
   june_vm_module: ^1.0.5
