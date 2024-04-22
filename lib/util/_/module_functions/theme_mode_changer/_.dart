@@ -32,9 +32,12 @@ class ThemeModeChanger {
       case ThemeMode.system:
         var brightness = MediaQuery.of(context).platformBrightness;
         MaterialAppParams.themeMode =
-            (brightness == Brightness.light) ? ThemeMode.dark : ThemeMode.light;
+        (brightness == Brightness.light) ? ThemeMode.dark : ThemeMode.light;
         break;
       case null:
+        var brightness = MediaQuery.of(context).platformBrightness;
+        MaterialAppParams.themeMode =
+        (brightness == Brightness.light) ? ThemeMode.dark : ThemeMode.light;
         break;
     }
     state.setState();
