@@ -3,7 +3,7 @@ description: "change or switch theme mode in your app."
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/theme_mode_changer
 
-version: 0.1.0
+version: 1.0.0
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -16,7 +16,7 @@ dependencies:
   june_flow_util: ^0.8.19
 
 dev_dependencies:
-  config_theme: ^0.0.2 #@add
+  config_theme: ^0.0.3 #@add
   flutter_test:
     sdk: flutter
   june_vm_module: ^1.0.5
