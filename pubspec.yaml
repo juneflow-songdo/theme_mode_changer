@@ -3,7 +3,7 @@ description: "change or switch theme mode in your app."
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/theme_mode_changer
 
-version: 1.0.4
+version: 1.0.5
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
